@@ -11,8 +11,12 @@ import NavMenu from './NavMenu';
  */
 class Layout extends Component {
 
-    state = {
-        showAppMenu: false
+    constructor(props) {
+        super(props);
+
+        this.state = {
+            showAppMenu: false
+        }
     }
 
     toggleAppMenu = () => {
